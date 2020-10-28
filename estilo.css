@@ -88,3 +88,15 @@ h4 {
     padding: 30px;
     border: solid black 2px;  
 }
+
+/*RESPONSIVE*/
+
+@media (min-width: 320px) and (max-width: 768px){
+    .form {
+        width: 320px;
+    }
+
+    #results {
+        width: 320px;
+    }
+}
