@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(255, 255, 0, 0.507);
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+    background-image: url(img/girasoles.jpg);
+    width: 400px;
+    display: block;
+    justify-content: center;
+    margin: 50px auto;
+    box-shadow: black 20px;
+    border-radius: 5px;
+    padding: 30px 10px;
+    border: solid black 2px;
+    
+}
+
+.form-content {
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: solid black 2px;
+}
+    
+form label {
+    margin: 10px;
+    text-align: left;
+    font-weight: 800;
+    
+}    
+
+button {
+    margin: 30px auto ;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.705);
+    color: white;
+}
+
+.inp1 {
+    width: 150px;
+    margin-left: 61px;
+}
+.inp2 {
+    width: 150px;
+    margin-left: 63px;
+} 
+.inp3 {
+    width: 150px;
+    margin-left: 13px;
+}
+.inp4 {
+    width: 150px;
+    margin-left: 48px;
+}
+
+/*Para la info*/
+h4 {
+    margin-left: 40px;
+}
+
+#results {
+    background-color: white;
+    width: 370px;
+    display: block;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 30px;
+    border: solid black 2px;  
+}
